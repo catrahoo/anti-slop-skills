@@ -1,0 +1,44 @@
+{
+  "name": "anti-slop-skills",
+  "owner": { "name": "Nurman Catra" },
+  "metadata": {
+    "description": "Kumpulan 7 skill anti AI-slop untuk desain UI dan tulisan. Develop Program By Nurman Catra."
+  },
+  "plugins": [
+    {
+      "name": "taste-skill",
+      "description": "Selera desain frontend yang tidak terlihat generik (Leonxlnx)",
+      "source": { "source": "github", "repo": "Leonxlnx/taste-skill" }
+    },
+    {
+      "name": "antislop",
+      "description": "Anti-slop untuk kode, UI, copywriting, layout mobile (miqdadbadjuber)",
+      "source": { "source": "github", "repo": "miqdadbadjuber/anti-slop" }
+    },
+    {
+      "name": "impeccable",
+      "description": "Kualitas desain frontend tingkat produksi (pbakaus)",
+      "source": "./plugins/impeccable"
+    },
+    {
+      "name": "humanizer",
+      "description": "Membuat tulisan AI terdengar seperti manusia (blader)",
+      "source": { "source": "github", "repo": "blader/humanizer" }
+    },
+    {
+      "name": "stop-slop",
+      "description": "Menghapus pola tulisan khas AI (hardikpandya)",
+      "source": "./plugins/stop-slop"
+    },
+    {
+      "name": "no-ai-slop",
+      "description": "Merapikan draf jadi lebih tajam tanpa menghilangkan gaya penulis (petergyang)",
+      "source": "./plugins/no-ai-slop"
+    },
+    {
+      "name": "avoid-ai-writing",
+      "description": "Deteksi dan tulis ulang tulisan bergaya AI (conorbronsdon)",
+      "source": "./plugins/avoid-ai-writing"
+    }
+  ]
+}
